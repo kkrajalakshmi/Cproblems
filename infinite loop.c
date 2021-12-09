@@ -10,3 +10,15 @@ int main()
     return 0;
 }
 
+
+
+int main()
+{
+ int c = 3, no = 30;
+ do {
+    no /= c;
+    printf ("%d\n", no);
+ } while(c != 0);
+
+ return 0;
+}
